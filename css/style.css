@@ -1,16 +1,43 @@
-body, html {
-  height: 100%;
+/* nav */
+
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  background-color: #F4F4F4;
+}
+header {
+  background-color: #35424A;
+  color: #FFFFFF;
+  padding: 10px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-  height: 50%;
+/*hero section*/
+
+.hero-images {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/hero.jpg");
+  min-height: 60vh; /* changed from height:100% to a visible viewport-based height */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-color: #333;
 }
 
 .hero-text {
@@ -20,6 +47,9 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  padding: 1rem;
+  max-width: 90%;
+  box-sizing: border-box;
 }
 
 .hero-text button {
@@ -34,6 +64,14 @@ body, html {
 }
 
 .hero-text button:hover {
-  background-color: #555;
+  background-color: #c2bfbf;
   color: white;
+}
+/* About Section */
+#about {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
