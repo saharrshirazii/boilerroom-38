@@ -75,3 +75,13 @@ nav ul li a:hover {
   border-radius: 8px;
   text-align: center;
 }
+
+/* Contact section */
+#contact {
+  background: #35424A;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#contact h4 {
+  color: white;
+}

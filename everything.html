@@ -3,27 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Välkommen till Göteborg</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!--Header-->
     <header>
       <nav>
+        <h1>Göteborg</h1>
         <ul>
-          <li><a href="#">Hemsida</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Hem</a></li>
+          <li><a href="#about">Om Göteborg</a></li>
+          <li><a href="#attractions">Populära attraktioner</a></li>
+          <li><a href="#celebs">Kändisar</a></li>
+          <li><a href="#event">Evenemang</a></li>
+          <li><a href="#contact">Kontakta Oss</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <h1>Welcome to Boilerroom 38</h1>
-        <p>Your gateway to modern web solutions.</p>
-        <a href="#" class="btn">Get Started</a>
+      <!-- Hero -->
+      <section>
+        <div class="hero-images">
+          <div class="hero-text">
+            <h2 style="font-size: 50px">Välkommen till Göteborg</h2>
+            <p>
+              Upptäck de bästa restaurangerna, attraktionerna och upplevelserna
+              som vår vackra stad har att erbjuda. Låt oss vara din guide till
+              oförglömliga äventyr!
+            </p>
+            <button>Utforsoka attraktionerna</button>
+          </div>
+        </div>
       </section>
 
+      <!-- About Section -->
+      <section id="about">
+        <h3>Om Göteborg</h3>
+        <p>
+          Göteborg är Sveriges näst största stad, känd för sin avslappnade
+          atmosfär, kustnära läge och levande kulturliv. Staden erbjuder många
+          sevärdheter, ett brett utbud av evenemang och är hem för flera
+          välkända profiler inom musik, sport och kultur. Här möts besökare av
+          en välkomnande stad med både puls och närhet till naturen.
+        </p>
+      </section>
+
+      <!--Attractions-->
       <section class="attractions">
         <div>
           <h2>Populära attraktioner</h2>
@@ -101,6 +128,70 @@
         </a>
       </section>
 
+      <!--Kändisar-->
+      <section>
+        <h2>Populära människor</h2>
+        <p>Kändisar, legender och ikoner</p>
+
+        <a href="**INSERT LINK**" class="box">
+          <article>
+            <img src="**INSERT IMAGE" alt="Liseberg" />
+            <h3>Mr hägg</h3>
+            <p>
+              Håkan Hägg är Göteborgs mest kända gatumusikant. Han har sjungit i
+              Nordstan sedan 1983, ofta med cykeln bredvid, och tolkar visor som
+              Barbro Hörberg. 2025 blev han förband till Håkan Hellström på
+              Ullevi efter drygt 40 år på gatorna. En varm röst som sprider
+              glädje i stadens brus.
+            </p>
+          </article>
+        </a>
+
+        <a href="**INSERT LINK**" class="box">
+          <article>
+            <img src="**INSERT IMAGE" alt="Liseberg" />
+            <h3>Håkan Hällström</h3>
+            <p>
+              Håkan Hellström skriver pop som låter ofärdigt på ett medvetet
+              sätt: skeva körer, blås som snubblar, texter som blandar hamn,
+              hjärta och skuld. Han växlar mellan vals och punk utan att putsa
+              kanterna. Det gör att låtarna känns levande även på Ullevi, som om
+              de fortfarande testas inför våra ögon.
+            </p>
+          </article>
+        </a>
+
+        <a href="**INSERT LINK**" class="box">
+          <article>
+            <img src="**INSERT IMAGE" alt="Liseberg" />
+            <h3>Lotta</h3>
+            <p>
+              Lotta på Liseberg är somrig allsång mitt i Göteborg. Lotta Engberg
+              håller ihop publiken med rak, varm energi. Pop, schlagers och
+              visor rullar, kamerorna fångar leenden och falsksång utan
+              prestige. Det är enkelt: sjung med, vinka, känn hur parken blir en
+              enda scen. Allsång som faktiskt funkar.
+            </p>
+          </article>
+        </a>
+
+        <a href="**INSERT LINK**" class="box">
+          <article>
+            <img src="**INSERT IMAGE" alt="Liseberg" />
+            <h3>Glenn Hysen</h3>
+            <p>
+              Glenn Hysén var mittbacken som spelade enkelt och hårt. IFK
+              Göteborg, Italien, Liverpool, landslaget. Inga krusiduller, bara
+              brytningar i rätt ögonblick och ledarskap som märks. Efter
+              karriären blev han folkhemssnackis med torr Göteborgshumor. En
+              Glenn bland Glennar, för evigt kopplad till Ullevi och
+              segersånger.
+            </p>
+          </article>
+        </a>
+      </section>
+
+      <!--Event-->
       <section>
         <h2>Event i Göteborg</h2>
         <p>
@@ -125,7 +216,7 @@
 
         <a href="https://www.wayoutwest.se/" class="box">
           <article>
-            <img src="images/Way out west.jpg" alt="Way out West">
+            <img src="images/Way-out-west.jpg" alt="Way out West" />
             <h3>Way out West</h3>
             <p>
               Way Out West är en årlig musikfestival som hålls i Slottsskogen i
@@ -148,6 +239,22 @@
           </p>
         </a>
       </section>
+
+      <section id="contact">
+        <h4>Adress:</h4>
+        <p>Polhemsplatsen 3, 411 11 Göteborg</p>
+
+        <h4>Telefon:</h4>
+        <p>+46746719001</p>
+
+        <h4>Mejladress:</h4>
+        <p>
+          <a href="mailto:ahm.ringholm@chasacademy.se"
+            >ahm.ringholm@chasacademy.se</a
+          >
+        </p>
+      </section>
     </main>
+    <footer>&copy; FJSX25 Team Göteborg</footer>
   </body>
 </html>
